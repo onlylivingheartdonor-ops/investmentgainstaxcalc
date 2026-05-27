@@ -109,7 +109,7 @@ export default function Page() {
         <div className="igt-card">
           <p className="igt-section-title">How capital gains tax works</p>
           <div className="igt-prose">
-            <p>When you sell an investment for more than you paid, the profit is a capital gain. Short-term gains (held ≤1 year) are taxed as ordinary income — up to 37%. Long-term gains (held >1 year) get preferential rates: 0%, 15%, or 20% depending on your total income.</p>
+            <p>When you sell an investment for more than you paid, the profit is a capital gain. Short-term gains (held ≤1 year) are taxed as ordinary income — up to 37%. Long-term gains (held {'>'}1 year) get preferential rates: 0%, 15%, or 20% depending on your total income.</p>
             <p>A married couple with $100,000 in ordinary income could sell stock for a $50,000 long-term gain and pay 0% tax on that gain. The same gain sold short-term would cost $11,000 or more. The calculator uses the current 2025 tax brackets to determine your rate automatically.</p>
           </div>
           <div className="igt-info-grid">
